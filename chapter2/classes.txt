@@ -1,0 +1,35 @@
+A class is a cookie cutter and there bulit in ones that u can create an integer and datatypes
+
+In Python, a class is like a blueprint or template for creating objects (specific instances of the class). It allows you to group related data and functions together. Think of it like a "cookie cutter" that shapes objects in a consistent way.
+
+Creating a Class
+To create a class, you use the class keyword followed by the class name. Inside the class, you can define:
+
+Attributes: Variables that hold data for each object.
+Methods: Functions that define actions or behaviors for the object.
+
+class Dog:
+    # Constructor method (special method that runs when creating an object)
+    def __init__(self, name, breed):
+        self.name = name   # Attribute
+        self.breed = breed # Attribute
+
+    # Method that defines a behavior
+    def bark(self):
+        print(f"{self.name} says woof!")
+
+# Create an object (instance) of the Dog class
+my_dog = Dog("Rex", "Golden Retriever")
+
+# Access attributes
+print(my_dog.name)  # Output: Rex
+
+# Call the bark method
+my_dog.bark()       # Output: Rex says woof!
+
+__init__(self): This is the constructor. It runs when you create a new object and sets up initial values (attributes).
+self: This refers to the current instance of the class, allowing access to its attributes and methods.
+Objects: You can create multiple objects from the same class, each with its own data.
+Why Use Classes?
+Classes help you organize your code, group related functionality, and reuse code easily. They're essential in Object-Oriented Programming (OOP) for modeling real-world things (like dogs, cars, etc.).
+

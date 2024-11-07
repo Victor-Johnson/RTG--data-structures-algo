@@ -1,0 +1,2 @@
+A pointer is a variable that stores the memory address of another variable. Instead of directly holding a value, the pointer holds the location of where that value is stored in memory. This allows for more direct manipulation of memory, which can be powerful, but also risky if misused (like accessing memory that's been freed).
+
