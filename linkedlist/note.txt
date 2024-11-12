@@ -26,3 +26,19 @@ Constructor for linked list
 using one class to create a node and another constructor
 self.value
 self.next
+
+printing the linked list
+def print_list(self):
+    temp = self.head
+    while temp is not None:
+    print(temp.value)
+    temp = temp.next
+
+Append the item to a link list
+Correct Implementation of appendtolist Method
+The appendtolist method should add a new node at the end of the linked list. Here's how you can implement it:
+
+Create a new node with the provided value.
+Attach the new node to the tail of the current linked list.
+Update the tail of the list to point to the new node.
+Increment the length of the list by 1
