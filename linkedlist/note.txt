@@ -1,0 +1,28 @@
+Head points the first variable
+tail is the last variable and points to none
+and they have indexes pointing to specific address in memory
+
+Understanding Big O notation in Linked list
+for example taking a linked list of 11,2,23,7
+adding No 4 to this linked list will be (0)1
+making the linked list look like 11->3->23->7->4
+with 4 being the tail.
+removing 4 from the list,setting it equal to another point ,
+involves iterating through the whole list O(n)
+adding a number into the list pointing at the node
+and
+
+Linked list Under the Hood
+appending an item what is going on to make that happen
+understanding the node in terms of value and pointers
+essentially a dictionary in terms of
+{
+"value":4,
+"next":None
+}
+thinking of it as Nested dictionaries
+
+Constructor for linked list
+using one class to create a node and another constructor
+self.value
+self.next
